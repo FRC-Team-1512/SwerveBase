@@ -12,6 +12,7 @@ public class Shooter extends SubsystemBase {
 
     public Shooter(int motorPort) {
         _motor = new TalonFX(motorPort);
+    //constructor that initializes motor at given port
     }
 
     public void spinFullSpeed() {
